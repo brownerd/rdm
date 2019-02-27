@@ -1,5 +1,5 @@
 {
-  "name": "rdm",
+  "name": "rdmkit-rdm",
   "version": "1.0.0",
   "description": "RDM is an script for resizing elements in the DOM to a height closest to the nearest multiple of the baseline height. This is meant to be a tool for web typography nerds that want to attempt to follow a strict baseline throughout their web pages.",
   "main": "dist/index.js",
@@ -11,9 +11,10 @@
     "dist": "terser ./src/index.js --compress --mangle --output ./dist/index.js",
     "icon": "cp ./src/icons/* ./dist"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typography"],
+  "author": "Brownerd",
   "license": "ISC",
+  "repository": "",
   "devDependencies": {
     "parcel-bundler": "^1.11.0",
     "rimraf": "^2.6.3"
