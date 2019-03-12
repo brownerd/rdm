@@ -1,9 +1,10 @@
 module.exports = elements => {
   // resize on load
-  // resizeElements(elements);
-  document.addEventListener("DOMContentLoaded", function(event) {
-    resizeElementsOnLoad(elements);
-  });
+  resizeElements(elements);
+
+  // document.addEventListener("DOMContentLoaded", function(event) {
+  //   resizeElementsOnLoad(elements);
+  // });
 
   // resize when the browser gets resized
   window.addEventListener(
@@ -20,7 +21,7 @@ module.exports = elements => {
     )
   );
 
-  function resizeElementsOnLoad(elements) {
+  function resizeElements(elements) {
     // Get elements to resize to the nearest multiple of the baselineUnit
     let nodeList = document.querySelectorAll(elements);
     let lh = parseFloat(getRootLineHeight(), 10);
