@@ -1,6 +1,6 @@
 {
   "name": "rdmkit-rdm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "RDM is an script for resizing elements in the DOM to a height closest to the nearest multiple of the baseline height. This is meant to be a tool for web typography nerds that want to attempt to follow a strict baseline throughout their web pages.",
   "main": "dist/index.js",
   "scripts": {

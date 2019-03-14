@@ -30,7 +30,7 @@ module.exports = elements => {
       for (let elem of nodeList) {
         let h = elem.offsetHeight;
         elem.style.height = newHeight(h, lh);
-        console.log(h);
+        // console.log(h);
       }
     }, 500);
   }
@@ -46,7 +46,7 @@ module.exports = elements => {
       let h = elem.offsetHeight;
       // elem.style.transition = ".2s all ease-in-out";
       elem.style.height = "auto";
-      console.log(h);
+      // console.log(h);
     }
 
     // Then fire off the baseline resizing
@@ -57,7 +57,7 @@ module.exports = elements => {
         // elem.style.maxHeight = newHeight + "px";
         // elem.style.maxHeight = newHeight(h, lh);
         elem.style.height = newHeight(h, lh);
-        console.log(h);
+        // console.log(h);
       }
     }, 1500);
   }
